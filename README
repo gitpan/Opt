@@ -1,0 +1,35 @@
+
+NAME
+    Opt - Get command line options and their values
+
+DESCRIPTION
+    This module allows you to read command-line options and their values.
+
+    This module can handle any command-line.
+
+REQUIREMENT
+
+INSTALLATION
+    The module can be installed using the standard Perl procedure:
+
+        perl Makefile.PL
+        make
+        make test       # No tests defined for version 0.1.0
+        make install    # You may need to be root
+        make clean      # or make realclean
+
+    Windows users without a working "make" can get nmake from:
+        ftp://ftp.microsoft.com/Softlib/MSLFILES/nmake15.exe
+
+VERSION
+    This is the 0.1.0 version distribution of the Opt.pm module
+
+AUTHOR
+    Balaji Ramasubramanian (balaji.ramasubramanian@gmail.com, balajiram@cpan.org)
+
+SUPPORT
+    Of course, I'll welcome e-mails.
+    And now, I have a website. If you have a question or suggestion, 
+    please let me know.
+
+    http://balaji.ramasubramanian.googlepages.com/
