@@ -52,11 +52,11 @@ DIRFILESEP = /
 DFSEP = $(DIRFILESEP)
 NAME = Opt
 NAME_SYM = Opt
-VERSION = 0.1.0
+VERSION = 0.1.1
 VERSION_MACRO = VERSION
-VERSION_SYM = 0_1_0
+VERSION_SYM = 0_1_1
 DEFINE_VERSION = -D$(VERSION_MACRO)=\"$(VERSION)\"
-XS_VERSION = 0.1.0
+XS_VERSION = 0.1.1
 XS_VERSION_MACRO = XS_VERSION
 XS_DEFINE_VERSION = -D$(XS_VERSION_MACRO)=\"$(XS_VERSION)\"
 INST_ARCHLIB = blib/arch
@@ -246,7 +246,7 @@ RCS_LABEL = rcs -Nv$(VERSION_SYM): -q
 DIST_CP = best
 DIST_DEFAULT = tardist
 DISTNAME = Opt
-DISTVNAME = Opt-0.1.0
+DISTVNAME = Opt-0.1.1
 
 
 # --- MakeMaker macro section:
@@ -469,7 +469,7 @@ metafile : create_distdir
 	$(NOECHO) $(ECHO) '# http://module-build.sourceforge.net/META-spec.html' > META_new.yml
 	$(NOECHO) $(ECHO) '#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#' >> META_new.yml
 	$(NOECHO) $(ECHO) 'name:         Opt' >> META_new.yml
-	$(NOECHO) $(ECHO) 'version:      0.1.0' >> META_new.yml
+	$(NOECHO) $(ECHO) 'version:      0.1.1' >> META_new.yml
 	$(NOECHO) $(ECHO) 'version_from: Opt.pm' >> META_new.yml
 	$(NOECHO) $(ECHO) 'installdirs:  site' >> META_new.yml
 	$(NOECHO) $(ECHO) 'requires:' >> META_new.yml
@@ -739,7 +739,7 @@ testdb_static :: testdb_dynamic
 # --- MakeMaker ppd section:
 # Creates a PPD (Perl Package Description) for a binary distribution.
 ppd:
-	$(NOECHO) $(ECHO) '<SOFTPKG NAME="$(DISTNAME)" VERSION="0,1,0,0">' > $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '<SOFTPKG NAME="$(DISTNAME)" VERSION="0,1,1,0">' > $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '    <TITLE>$(DISTNAME)</TITLE>' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '    <ABSTRACT></ABSTRACT>' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '    <AUTHOR></AUTHOR>' >> $(DISTNAME).ppd

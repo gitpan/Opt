@@ -121,7 +121,7 @@
 
 package Opt;
 use vars qw($VERSION);
-$VERSION='0.1.0';
+$VERSION='0.1.1';
 
 sub getOptValue {
 	### Can have four possible values 
@@ -312,7 +312,7 @@ __END__
 
         perl Makefile.PL
         make
-        make test       # No tests defined in the version 0.1.0
+        make test       # No tests defined in the version 0.1.1
         make install    # You may need to be root
         make clean      # or make realclean
 
@@ -327,7 +327,7 @@ __END__
 
 =head1 VERSION
 
-    This is the 0.1.0 version distribution of the Opt.pm module
+    This is the 0.1.1 version distribution of the Opt.pm module
 
 =head1 AUTHOR
 
